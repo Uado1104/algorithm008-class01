@@ -19,3 +19,19 @@ public class moveZeroes {
         }
     }
 }
+
+class solution{
+    public void moveZeroes(int[] nums){
+        int next = 0;
+        for(int i =0 ;i<nums.length;i++){
+            if(nums[i] != 0 ){
+                nums[next] = nums[i];
+                if(i !=  next){
+                    nums[i] = 0;
+                
+                }
+                next++;
+            }
+        }
+    }
+}
