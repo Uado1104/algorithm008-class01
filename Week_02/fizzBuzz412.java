@@ -32,8 +32,6 @@ n = 15,
 */
 public class fizzBuzz412 {
     private static void main(String args[]) {
-        solution1 a = new fizzBuzz(3);
-        return a;
     }
 }
 
