@@ -15,8 +15,7 @@ import java.util.List;
 */
 public class addDigits258 {
     private static void main(String args[]) {
-        solution1 a = new fizzBuzz(3);
-        return a;
+
     }
 }
 //对原数做一个 f 操作，也就是各个位上的数相加，然后不停的做 f 操作，最终的结果对 9 取余和原数 x 对 9 取余是相等的。
