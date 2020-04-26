@@ -16,9 +16,7 @@ import java.util.Arrays;
 
 public class isAnagram242{
     public static void main(String[] args) {
-        String s = "1234";
-        String t = "2345";
-        solution1 a =new isAnagram(s,t) ;
+
     }
 }
 
