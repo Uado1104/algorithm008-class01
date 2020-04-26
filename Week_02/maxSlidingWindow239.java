@@ -11,14 +11,14 @@ import java.util.HashMap;
 输入: nums = [1,3,-1,-3,5,3,6,7], 和 k = 3
 输出: [3,3,5,5,6,7] 
 解释: 
-  滑动窗口的位置                最大值
+滑动窗口的位置                最大值
 ---------------               -----
 [1  3  -1] -3  5  3  6  7       3
- 1 [3  -1  -3] 5  3  6  7       3
- 1  3 [-1  -3  5] 3  6  7       5
- 1  3  -1 [-3  5  3] 6  7       5
- 1  3  -1  -3 [5  3  6] 7       6
- 1  3  -1  -3  5 [3  6  7]      7
+1 [3  -1  -3] 5  3  6  7       3
+1  3 [-1  -3  5] 3  6  7       5
+1  3  -1 [-3  5  3] 6  7       5
+1  3  -1  -3 [5  3  6] 7       6
+1  3  -1  -3  5 [3  6  7]      7
  
 提示：
 1 <= nums.length <= 10^5
@@ -28,10 +28,7 @@ import java.util.HashMap;
 */
 public class maxSlidingWindow239 {
     private static void main(String args[]) {
-        int[] s = { 1, 2, 3, 4, 5, 1 };
-        int t = 2;
-        solution1 a = new maxSlidingWindow(s, t);
-        return a;
+
     }
 }
 
