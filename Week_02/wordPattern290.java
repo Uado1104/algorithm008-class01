@@ -11,10 +11,7 @@ import java.util.HashMap;
 */
 public class wordPattern290 {
     private static void main(String args[]) {
-        String s = "1234";
-        String t = "2345";
-        solution1 a = new wordPattern(s,t) ;
-        return a;
+
     }
 }
 
