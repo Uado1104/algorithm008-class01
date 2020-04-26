@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Stack;
 
-java.util.HashMap;
+import java.util.HashMap;
 /*
 有些数的素因子只有 3，5，7，请设计一个算法找出第 k 个数。
 注意，不是必须有这些素因子，而是必须不包含其他的素因子。例如，前几个数按顺序应该是 1，3，5，7，9，15，21。
@@ -16,10 +16,7 @@ java.util.HashMap;
 
 public class getKthMagicNumber1709 {
     private static void main(String args[]) {
-        String s = { 1, 2, 3, 4 };
-        String t = { 2, 3, 4 };
-        solution1 a = new intersect(s, t);
-        return a;
+
     }
 }
 //动态规划
