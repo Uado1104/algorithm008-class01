@@ -30,10 +30,7 @@ import java.util.Stack;
 */
 public class removeOuterParentheses1021 {
     private static void main(String args[]) {
-        String s = "1234";
-        String t = "2345";
-        solution1 a = new getHint(s, t);
-        return a;
+
     }
 }
 
