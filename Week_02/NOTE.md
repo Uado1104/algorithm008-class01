@@ -113,6 +113,5 @@ find-max:O(1);delete-max:O(log N);insert(create):O(log N) or O(1)
  索引为i的左孩子的索引是（2 * i + 1）；<br>
  索引为i的右孩子的索引是（2 * i + 1）；<br>
  索引为i的父节点的索引为floor((i-1)/2)<br>
- 
-
+3.Delete Max：1.将堆尾元素替换到顶部（即对顶被替代删除掉）；2.依次从根部向下调整整个堆的结构（一直到堆尾即可）。
 
