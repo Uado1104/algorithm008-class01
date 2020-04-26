@@ -19,10 +19,6 @@ package Week_02;
 */
 public class getHint299 {
     private static void main(String args[]) {
-        String s = "1234";
-        String t = "2345";
-        solution1 a = new getHint(s,t) ;
-        return a;
     }
 }
 
