@@ -1,11 +1,10 @@
 package Week_01;
 
-import sun.net.www.content.text.plain;
 
 //暴力方法1，双指针，指针
 // TODO时间复杂度：O(n*k)
 // 空间复杂度：O(1)
-public class rotatenums {
+public class rotateNums {
     public void solution(int[] nums, int k) {
         int temp, previous;
         for (int i = 0; i < k; i++) {
@@ -62,7 +61,7 @@ class Solution {
     }
 
     public int[] rotate(int[] temps, int a,int b) {
-        for (int i = 0;i < int() ((b-a)/2);i++) {
+        for (int i = 0;i < ((b-a)/2);i++) {
             int temp = temps[a+i];
             temps[a+i] = temps[b-i] ;
             temps[b-i] = temp ;

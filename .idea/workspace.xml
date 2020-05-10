@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07f7a641-d7e1-4ab1-95de-af19af8097fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Week_01/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/rotatenums.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/rotatenums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/sortedSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/sortedSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_02/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/NOTE.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1as7E7bAarlUe5YFZC6iDq0FBDi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07f7a641-d7e1-4ab1-95de-af19af8097fa" name="Default Changelist" comment="" />
+      <created>1587512332878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587512332878</updated>
+    </task>
+    <servers />
+  </component>
+</project>
