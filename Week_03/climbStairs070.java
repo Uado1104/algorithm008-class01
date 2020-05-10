@@ -1,42 +1,56 @@
 package Week_03;
 /*
-题目：假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
-每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
-注意：给定 n 是一个正整数。
-示例 1：
-输入： 2
-输出： 2
-解释： 有两种方法可以爬到楼顶。
-1.  1 阶 + 1 阶
-2.  2 阶
-示例 2：
-输入： 3
-输出： 3
-解释： 有三种方法可以爬到楼顶。
-1.  1 阶 + 1 阶 + 1 阶
-2.  1 阶 + 2 阶
-3.  2 阶 + 1 阶
+题目：
+根据一棵树的前序遍历与中序遍历构造二叉树。
+注意:
+你可以假设树中没有重复的元素。
+例如，给出
+前序遍历 preorder = [3,9,20,15,7]
+中序遍历 inorder = [9,3,15,20,7]
+返回如下的二叉树：
+    3
+   / \
+  9  20
+    /  \
+   15   7
 */
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.HashMap;
 public class climbStairs070 {
     public static void main (String[] args) {
 
     }
 }
-
-//斐波那契函数
-//思路：F(n) = F(n-1) + F(n-2)
+class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode(int x) { val = x; }
+}
+//
+//思路：
 //
 class Solution1 {
-    public int climbStairs(int n) {
-        if(n == 1)
-            return  1;
-        int[] res =  new int[n];
-        res[0] = 1;
-        res[1] = 2;
-        for (int i = 2 ; i < n;i++){
-            res[i] = res[i-1] + res[i-2];
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        //递归终止条件
+        if(preorder.length == 0){
+            return null;
         }
-        return res[n-1];
+        for(int i = 0;i < preorder.length ;i++){
+            //当前层处理
+            if(preorder[0] == inorder[i]){
+                int[] pre_left = Arrays.copyOfRange (preorder,1,1+i);
+                int[] pre_right = Arrays.copyOfRange (preorder,i+1,preorder.length);
+                int[] in_left = Arrays.copyOfRange (inorder,0,i);
+                int[] in_right = Arrays.copyOfRange (inorder,i+1,inorder.length);
+                //下探到下一层
+                root.left = buildTree (pre_left,pre_right);
+                root.right = buildTree (in_left,in_right);
+                //旧状态数据处理
+            }
+        }
+        return root;
     }
 }
