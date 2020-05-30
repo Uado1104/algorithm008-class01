@@ -74,7 +74,7 @@ class Solution2020050901 {
 
 
             // 判断 row 行，col 列这个位置有没有被其他方向的皇后攻击
-            private boolean notUnderAttack ( int row, int col){
+            private boolean notUnderAttack(int row, int col){
 
             }
             // 在指定的位置上放置皇后

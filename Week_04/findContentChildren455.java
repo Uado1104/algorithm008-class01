@@ -44,6 +44,6 @@ class Solution202002051301 {
             }
             sl++;
         }
-        return gl;
+        return sl;
     }
 }

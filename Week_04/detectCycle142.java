@@ -26,14 +26,14 @@ public class detectCycle142 {
 
     }
 }
- class ListNode {
-     int val;
-     ListNode next;
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
-  }
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) {
+        val = x;
+        next = null;
+    }
+}
 
 //双指针法：分成两个阶段，第一阶段fast是slow的两倍，当fast和slow第一次相遇，进入第二阶段，fast指向head，一格递增，再次相遇点即为所求点。
 //时间复杂度：O(N)；空间复杂度：O(1)
