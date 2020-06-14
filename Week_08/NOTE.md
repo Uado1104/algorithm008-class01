@@ -30,3 +30,5 @@
 比特币网络；分布式系统；Redis缓存；垃圾邮件、评论等的过滤。
 # LRU Cashe的实现
 记忆；钱包-储物柜；代码模块
+https://en.wikipedia.org/wiki/Cache_replacement_policies
+https://www.cnblogs.com/onepixel/p/7674659.html
